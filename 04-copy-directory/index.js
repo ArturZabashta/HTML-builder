@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-//const copyFile = require('fs/promises');
+
 const srcDirPath = path.join(__dirname, 'files');
 const distDirPath = path.join(__dirname, 'files-copy');
 
